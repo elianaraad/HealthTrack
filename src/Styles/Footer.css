@@ -1,0 +1,12 @@
+
+
+.footer-bottom {
+  background-color:green;
+  border-top: 1px solid #1e293b;
+  margin-top: 15px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  color:black;
+}

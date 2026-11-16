@@ -1,0 +1,140 @@
+.about-page {
+  padding: 64px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 48px;
+}
+
+.section-tag {
+  color: #059669;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.about-header h1 {
+  font-size: 2.2rem;
+  margin: 8px 0 16px;
+}
+
+.about-header p {
+  color: #475569;
+  font-size: 1.05rem;
+}
+
+.about-box {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 32px;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 24px;
+  padding: 36px;
+  margin-bottom: 40px;
+}
+
+.about-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.about-box p {
+  color: #475569;
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+
+.check-list {
+  list-style: none;
+}
+
+.check-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #334155;
+  margin-bottom: 10px;
+}
+
+.check-icon {
+  background-color: #d1fae5;
+  color: #059669;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.about-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.mini-card {
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.mini-emerald { background-color: #ecfdf5; }
+.mini-teal    { background-color: #f0fdfa; }
+.mini-sky     { background-color: #f0f9ff; grid-column: span 2; }
+
+.mini-emoji {
+  font-size: 1.8rem;
+  margin-bottom: 6px;
+}
+
+.mini-number {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.mini-label {
+  font-size: 0.8rem;
+  color: #475569;
+}
+
+.about-cta {
+  background-color: #0f172a;
+  color: #ffffff;
+  border-radius: 24px;
+  padding: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-cta h3 {
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.about-cta p {
+  color: #cbd5e1;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .about-box,
+  .about-cta {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    text-align: center;
+  }
+}
