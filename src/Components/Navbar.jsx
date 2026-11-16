@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import Logo from '../Assets/Logo.jpg';
 import '../Styles/Navbar.css';
 
 const Navbar = ({ activePage, setActivePage }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+ const Location = useLocation();
   const navItems = [
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About' },
@@ -19,11 +21,11 @@ const Navbar = ({ activePage, setActivePage }) => {
   };
 
   return (
+    
     <nav className="navbar">
       <div className="container nav-inner">
         <button onClick={() => handleNavigate('home')} className="logo-btn">
-          <span className="logo-icon">♥</span>
-          <span>HealthTrack</span>
+          <img src={Logo} alt="HealthTrack Logo" className="logo-image" />
         </button>
 
         <div className="nav-links">

@@ -12,7 +12,12 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.logo-img {
+  height: 42px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
 .logo-btn {
   display: flex;
   align-items: center;
