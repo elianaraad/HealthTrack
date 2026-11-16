@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import Logo from '../Assets/Logo.jpg';
 import '../Styles/Navbar.css';
 
 const Navbar = ({ activePage, setActivePage }) => {
+  <img src={Logo} alt="HealthTrack Logo" className="logo" />
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
