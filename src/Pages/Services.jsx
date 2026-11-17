@@ -9,7 +9,7 @@ const Services = ({ setActivePage }) => {
 
   const features = [
     {
-      emoji: '🏋️',
+      emoji: '🏋️‍♂️',
       title: 'Workout & Routine Logger',
       badge: 'Fitness',
       bgClass: 'bg-orange',

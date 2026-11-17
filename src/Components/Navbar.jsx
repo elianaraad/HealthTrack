@@ -1,11 +1,10 @@
 import  { useState } from 'react';
-import { useLocation } from 'react-router-dom';
 import Logo from '../Assets/Logo.jpg';
 import '../Styles/Navbar.css';
 
 const Navbar = ({ activePage, setActivePage }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
- const Location = useLocation();
+
   const navItems = [
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About' },

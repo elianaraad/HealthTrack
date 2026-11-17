@@ -40,19 +40,14 @@ const About = ({ setActivePage }) => {
 
         <div className="about-stats-grid">
           <div className="mini-card mini-emerald">
-            <div className="mini-emoji">❤️</div>
+          
             <p className="mini-number">100%</p>
             <p className="mini-label">Focused on Holistic Health</p>
           </div>
           <div className="mini-card mini-teal">
-            <div className="mini-emoji">🎯</div>
+            
             <p className="mini-number">3 Core</p>
             <p className="mini-label">Wellness Pillars Tracked</p>
-          </div>
-          <div className="mini-card mini-sky">
-            <div className="mini-emoji">🏆</div>
-            <p className="mini-number" style={{ fontSize: '1.1rem' }}>CSCI426 Capstone Project</p>
-            <p className="mini-label">Developed with ReactJS & Custom CSS</p>
           </div>
         </div>
       </div>
