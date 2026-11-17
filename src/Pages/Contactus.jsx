@@ -25,8 +25,8 @@ const Contact = () => {
             <h3>Contact Information</h3>
             <p>We welcome feature suggestions, bug reports, and wellness tracking inquiries.</p>
             <div className="info-item"><span>✉️</span><span>support@healthtrack-app.edu</span></div>
-            <div className="info-item"><span>📞</span><span>+1 (555) 234-5678</span></div>
-            <div className="info-item"><span>📍</span><span>CS & IT Department, Wellness Lab</span></div>
+            <div className="info-item"><span>📞</span><span>+961 3 456 789</span></div>
+            <div className="info-item"><span>📍</span><span> Ashrafieh</span></div>
         
           
         </div>
@@ -61,7 +61,7 @@ const Contact = () => {
                     required
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    placeholder="Alex Johnson"
+                    placeholder="jeffrey touma"
                     className="form-input"
                   />
                 </div>
@@ -72,7 +72,7 @@ const Contact = () => {
                     required
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    placeholder="alex@example.com"
+                    placeholder="jeffrey@gmail.com"
                     className="form-input"
                   />
                 </div>
@@ -84,7 +84,7 @@ const Contact = () => {
                   type="text"
                   value={formData.subject}
                   onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                  placeholder="Feature request or question"
+                  placeholder=" about what you want to ask"
                   className="form-input"
                 />
               </div>
@@ -102,7 +102,7 @@ const Contact = () => {
               </div>
 
               <button type="submit" className="btn-primary">
-                Submit Inquiry →
+                Submit →
               </button>
             </form>
           )}
