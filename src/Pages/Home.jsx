@@ -1,6 +1,5 @@
 import React from 'react';
 import '../Styles/Home.css';
-
 const Home = ({ setActivePage, stats }) => {
   const handleNavigate = (pageId) => {
     setActivePage(pageId);
@@ -12,7 +11,7 @@ const Home = ({ setActivePage, stats }) => {
       <section className="hero">
         <div className="container hero-grid">
           <div>
-            <span className="hero-badge">✨ Personal Fitness & Wellness Companion</span>
+            <span className="hero-badge">Personal Fitness & Wellness Companion</span>
             <h1>
               Track Your Daily Health, <span className="text-emerald">Master Your Habits.</span>
             </h1>
